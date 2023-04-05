@@ -1,5 +1,4 @@
-# Real-Time_Automatic_Number-Plate_Recognition_system
-
+# Real-Time Automatic Number Plate Recognition system (ANPR)
 ![Screenshot at 2023-04-05 22-32-52](https://user-images.githubusercontent.com/99510125/230216536-b8ade6f6-e722-430a-a079-a32aaf6ece57.png)
 
 
