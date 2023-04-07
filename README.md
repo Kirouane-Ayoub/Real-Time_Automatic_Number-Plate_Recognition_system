@@ -1,6 +1,6 @@
 # Real-Time Automatic Number Plate Recognition system (ANPR)
-![Screenshot at 2023-04-05 22-32-52](https://user-images.githubusercontent.com/99510125/230216536-b8ade6f6-e722-430a-a079-a32aaf6ece57.png)
 
+![Screenshot at 2023-04-07 17-31-09](https://user-images.githubusercontent.com/99510125/230644044-d3a7beb9-5c20-467b-82ea-6de7ea0e3c0c.png)
 
 Real-Time Automatic Number Plate Recognition (ANPR) system is an advanced technology that combines the power of 
 computer vision and deep learning to recognize and interpret license plate information from vehicles in real-time. 
