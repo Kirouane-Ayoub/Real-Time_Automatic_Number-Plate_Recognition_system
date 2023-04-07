@@ -30,8 +30,14 @@ with st.sidebar :
     save_output_video = st.radio("Save output video?",
                                             ('Yes', 'No'))
 
-    confd = st.slider("Select threshold confidence value : " , min_value=0.1 , max_value=1.0 , value=0.25)
-    iou = st.slider("Select Intersection over union (iou) value : " , min_value=0.1 , max_value=1.0 , value=0.5)
+    confd = st.slider("Select threshold confidence value : " , 
+                      min_value=0.1 ,
+                      max_value=1.0 , 
+                      value=0.25)
+    iou = st.slider("Select Intersection over union (iou) value : " ,
+                    min_value=0.1 ,
+                    max_value=1.0 ,
+                    value=0.5)
 
 tab0 , tab1 = st.tabs(["Home" , "Detection"])
 with tab0:
@@ -87,7 +93,7 @@ with tab1 :
                              iou=iou,
                              device=DEVICE_NAME)
             for result in results : 
-                # depackage results
+                # unpack results
                 bboxs = result.boxes 
                 for box in bboxs : 
                     # bboxes
